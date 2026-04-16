@@ -1,0 +1,7 @@
+*.json
+venv/
+Z/
+Y/
+__pycache__/
+.vscode/
+b/
