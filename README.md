@@ -42,7 +42,7 @@ Save extract.py at root of project and run:
 ```bash
 python3 -m venv venv
 source venv/bin/activate 
-pip install -U pip tree-sitter tree-sitter-cpp tree-sitter-python
+pip install -U pip tree-sitter tree-sitter-cpp tree-sitter-python tree-sitter-ocaml
 python3 extract.py .
 ```
 # Windows (PowerShell)
