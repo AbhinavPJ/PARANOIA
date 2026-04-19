@@ -48,7 +48,7 @@ python3 extract.py .
 # Windows (PowerShell)
 ```powershell
 python -m venv venv; .\venv\Scripts\Activate.ps1;
-pip install -U pip tree-sitter tree-sitter-cpp tree-sitter-python;
+pip install -U pip tree-sitter tree-sitter-cpp tree-sitter-python tree-sitter-ocaml;
 python extract.py .
 ```
 ## Output
