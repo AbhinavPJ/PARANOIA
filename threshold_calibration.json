@@ -1,0 +1,6 @@
+{
+    "slight_suspicion_min": 31.38,
+    "high_suspicion_min": 36.47,
+    "high_dominance_gap_min": 2.25,
+    "note": "Calibrated from COL106 labeled outputs under Z/COL216-A2/COL106: slight_min=31.38 (min of slightly_suspicious_pairs.csv), high_min=36.47 (min of highly_suspicious_pairs.csv), and high_dominance_gap_min=2.25 set just above max slight dominance gap (2.24)."
+}
