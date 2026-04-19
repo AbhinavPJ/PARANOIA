@@ -121,7 +121,7 @@ def scan_project(directory):
             ast_tree = None
             language_tag = ""
             if ext in ['.cpp', '.hpp', '.h', '.c', '.cc']:
-                if file in ['compare.py', 'extract.py']:
+                if filepath in ['compare.py', 'extract.py']:
                     continue
                 ast_tree = extract_nested_ast(filepath, cpp_parser)
                 language_tag = "cpp"
@@ -132,6 +132,8 @@ def scan_project(directory):
                 ast_tree = extract_nested_ast(filepath, ocaml_intf_parser)
                 language_tag = "ocaml_interface"
             elif ext == '.py':
+                if filepath in ['./compare.py', './extract.py']:
+                    continue
                 ast_tree = extract_nested_ast(filepath, py_parser)
                 language_tag = "python"
             if ast_tree:
